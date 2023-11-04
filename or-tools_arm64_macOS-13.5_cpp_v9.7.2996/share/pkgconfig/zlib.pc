@@ -1,0 +1,13 @@
+prefix=/Users/corentinl/work/main/or-tools_arm64_macOS-13.5_cpp_v9.7.2996
+exec_prefix=/Users/corentinl/work/main/or-tools_arm64_macOS-13.5_cpp_v9.7.2996
+libdir=lib
+sharedlibdir=lib
+includedir=include
+
+Name: zlib
+Description: zlib compression library
+Version: 9.7.2996
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
